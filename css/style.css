@@ -1,0 +1,236 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+      background-color: #f0efef;
+}
+
+header#relaxr {
+    padding: 27px 73px;
+    font-family: 'Open Sans';
+    background-color: #00224A;
+}
+
+header#relaxr h1 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+
+header#relaxr nav {
+    float: right;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+header#relaxr nav a {
+    color: #f9e42e;
+    text-decoration: none;
+}
+
+header#relaxr nav a:hover {
+    color: orange;
+}
+
+header#relaxr nav a:visited {
+    color: orange;
+}
+
+header#relaxr li {
+    display: inline-block;
+    padding: 14px;
+}
+
+section.contents {
+    padding: 60px 60px;
+    font-family: 'Open Sans';
+    width: 76%;
+}
+
+/*p#topParagraph {
+    display: none;
+}*/
+
+p.top-paragraph {
+    display: none;
+}
+
+p.bottom-paragraph {
+    display: none;
+}
+
+.first-article-top h2 {
+    color: #00224A;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.first-article-top p {
+    color: #606161;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section img {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    display: block;
+}
+
+/*section a {
+    float: right;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #00224A; 
+    font-weight: 600;
+    text-decoration: none;
+}*/
+
+/*a#readMoreLinkTop {
+    margin-right: 38px;
+}*/
+
+p.read-more {
+    margin-right: 38px;
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #00224A; 
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p#read-more-link-bottom {
+    margin-bottom: -55px;
+    margin-right: 0px;
+}
+
+/*a#readMoreLinkBottom {
+    margin-top: 16px;
+}*/
+
+.second-article-bottom {
+    border-top: 1px solid black;
+    border-color: #606161;
+    margin-right: 38px;
+    clear: right;  
+}
+
+.second-article-bottom h2 {
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.second-article-bottom p {
+    line-height: 20px;
+}
+
+/*Question: I have already cleared the above .second-article-bottom div, so by right the .bottom-border should not be floating right. However, in my case, the .bottom-border still floated right and was displayed on top of Read More >. I had to put in <br></br> in the html file in order to make the border appear beneath Read More >.*/ 
+
+.bottom-border {
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    margin-right: 38px;
+/*  clear: right; can also be used in this case to clear the float: right previously imposed on section a;*/
+}
+
+section.sidebar {
+    display: inline-block; 
+    margin-top: -920px;
+    margin-right: 185px;
+    font-family: 'Open Sans';
+    color: #00224A;
+    vertical-align: top;
+    margin-left: 74%;
+}
+
+.categories h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 1.05em;
+}
+
+.categories li {
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0.75em 0;
+}
+
+.about-relaxr {
+/*    margin-right: -150px;*/
+    margin-right: -900px;
+    width: 230px;
+}
+
+.about-relaxr h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 1.70em;
+    margin-bottom: 1.05em;
+}
+
+.about-relaxr p {
+    line-height: 1.4;
+}
+
+.about-relaxr img {
+    padding-top: 22px;
+}
+
+.sign-up-banner {
+    background-color: #f9e42e;
+    padding: 20px 60px;
+}
+
+.sign-up-button {
+    padding: 10px;
+    width: 200px;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00224A;
+    margin-left: 42%;
+}
+
+.sign-up-button a {
+    color: white;
+    text-decoration: none;
+} 
+
+footer {
+    background-color: #121212;
+    font-family: 'Open Sans';
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 40px;
+}
+
+.social-media-logos {
+    margin: 25px;
+}
+
+a.twitter-logo {
+    margin-left: -60px;
+    padding: 40px;
+}
+
+footer h1 {
+    color: #f9e42e;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+footer p.copyright {
+    color: white;
+    font-size: 15px;
+}
+
+
